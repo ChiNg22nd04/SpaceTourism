@@ -1,0 +1,109 @@
+.product-content{
+    position: absolute;
+    bottom: 0px;
+}
+
+.product-content-botScreen {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 160px;
+}
+.product-content-botScreen_left-text {
+    margin-left: -80px;
+    color: #b1b7bf;
+    text-transform: uppercase;
+    /* margin-top: -30px; */
+    font-size: 1.5rem;
+    position: absolute;
+    top: 180px;
+    left: 235px;
+}
+/* .product-content-botScreen_left-text{
+    margin-left: -80px;
+    color: 
+   #b1b7bf;
+    text-transform: uppercase;
+    margin-top: -30px;
+    font-size: 1.5rem;
+} */
+.product-content-botScreen_left-texts {
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+
+}
+.product-topScreen_navList::before{
+    content: "";
+    display: block;
+    width: 130px;
+    height: 2px;
+    background-color: #fff;
+    transform: translate(470px,34px);
+    margin-right: -65px;
+}
+
+.product-content-botScreen_right-img{
+    transform: translateY(-100px);
+}
+.product-content-botScreen_left {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.product-content-botScreen_left-textList{
+    padding: 0 120px 0 80px;
+}
+.product-content-botScreen_left-textList-item {
+    margin-top: 35px;
+}
+.product-content-botScreen_left-textMain{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.product-content-botScreen_left-textSupport{
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.7;
+    /* width: 452px; */
+    /* margin-bottom: 100px; */
+}
+.product-content-botScreen_right-navList{
+    padding-left: 0;
+}
+.product-content-botScreen_right-navItem_link{
+    text-decoration: none;
+    color: #333;
+    font-size: 30px;
+    line-height: 80px;
+    text-align: center;
+}
+.product-content-botScreen_right-navItem{
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    border-radius: 50%;
+    list-style: none;
+    margin-bottom: 30px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.product-content-botScreen_right-navList::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border-radius: 50%;
+    transform: translate(-5px,-340px);
+    border: 10px solid #fff;
+    /* list-style: none; */
+    /* margin-bottom: 30px; */
+}
+
+.product-content-botScreen_right-navItem_link-around{
+    
+    color: #fff;
+    text-decoration: none;
+}

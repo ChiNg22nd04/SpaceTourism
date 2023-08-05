@@ -1,0 +1,149 @@
+/* Ipad Pro */
+/* (min-width: 1024px) and */
+@media (min-width: 1024px) and (max-width: 1239px){
+    .home-product{
+        /* min-width: 1000px; */
+        /* width: 800px; */
+        width: 768px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .product-topSreen_navItem-link_pc{
+        display: none;
+    }
+    div.product-content{
+        bottom: 100;
+    }
+    .product-fullscreen-item_pc{
+        display: none;
+    }
+    ul.product-topScreen_navList::before {
+        content: "";
+        display: block;
+        width: 95px;
+        height: 2px;
+        background-color: #fff;
+        transform: translate(168px,44px);
+        margin-left: -42px;
+    }
+    ul.product-topScreen_navList{
+        width: 450px;
+        margin: 0;
+        top: 0;
+        height: 90px;
+        padding: 0;
+        padding-right: 20px;
+    }
+    .product-topScreen_line{
+        display: none;
+    }
+    .product-fullscreen-item_pc{
+        display: none;
+    }
+    p.product-content-botScreen_left-text{
+        margin: 0;
+        padding-left: 50px;
+    }
+    img.product-topScreen_logo-img{
+        width: 60px;
+    }
+    .product-content-botScreen_left-img-link{
+        width: 400px;
+    }
+    div.product-topScreen_logo {
+        top: 25px;
+        left: 35px;
+    }
+    div.product-content-botScreen{
+        flex-direction: column;
+        padding: 0;
+    }
+    div.product-content-botScreen_left{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    div.product-content-botScreen_left-img{
+        margin: 0;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    div.product-content-botScreen_right{
+        padding: 0;
+        width: 100%;
+        margin-bottom: -20px;
+    }
+    
+
+    div.product-content-botScreen_left_bottom{
+        padding: 0;
+        margin-bottom: 0px;
+    }
+    p.product-content-botScreen_left-textSupport{
+        text-align: center;
+        padding: 0 107px 30px;
+        margin-top: 0;
+    }
+    .product-content-botScreen_right-nav{
+        text-align: center;
+    }
+    ul.product-content-botScreen_right-navList{
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    div.product-content-botScreen_left_bottom-text{
+        width: 50%;
+        text-align: center;
+        padding: 0;
+    }
+    p.product-content-botScreen_left-textMain{
+        text-align: center  ;
+        padding: 0;
+    }
+    .product-content-botScreen_left_bottom-textSupport{
+        margin: 0;
+    }
+    .product-content-botScreen_left_bottom-textMain{
+        margin: 0;
+    }
+    div.product-content-botScreen_left-line{
+        bottom: 50px;
+    }
+    ul.product-content-botScreen_right-navList::before {
+        transform: translate(113px,15px);
+        content: "";
+        display: block;
+    }
+    li.product-topSreen_navItem:nth-child(1) {
+        padding-left: 45px;
+    }
+    /* ul.product-topScreen_navList::before {
+        content: "";
+        display: block;
+        transform: translate(142px,44px);
+    } */
+    /* ul.product-topScreen_navList::before{
+        content: "";
+        display: block;
+        width: 130px;
+        height: 2px;
+        background-color: #fff;
+        transform: translate(142px,44px);
+        margin-right: -65px;
+    } */
+   
+}
+    
+
+@media (min-width: 1300px) {
+    .home-product{
+        min-width: 1000px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .product-fullscreen-item_tablet{
+        display: none;
+    }
+}

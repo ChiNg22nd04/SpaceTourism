@@ -1,0 +1,96 @@
+.product-content{
+    position: absolute;
+    bottom: 100px;
+}
+.product-topScreen_navList::before{
+    content: "";
+    display: block;
+    width: 130px;
+    height: 2px;
+    background-color: #fff;
+    transform: translate(181px,34px);
+    margin-right: -65px;
+}
+.product-content-botScreen{
+    display: flex;
+    padding: 0 160px;
+}
+.product-content-botScreen_left{
+    /* width: 50%; */
+}
+.product-content-botScreen_left-text{
+    color: #ced4dc;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    font-size: 1.5rem;
+}
+.product-content-botScreen_left-img{
+    margin-left: 40px;
+}
+.product-content-botScreen_right{
+    padding: 115px 0 0 160px;
+}
+.product-content-botScreen_right-navList{
+    display: flex;
+    padding: 0;
+    margin-left: -40px;
+}
+.product-content-botScreen_right-navList::before{
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+    transform: translate(38px,25px);
+    content: "";
+    display: block;
+}
+.product-content-botScreen_right-navItem{
+    list-style-type: none;
+    padding-right: 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.product-content-botScreen_left-textMain{
+    font-size: 7.5rem;
+    margin: 0;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+.product-content-botScreen_left-textSupport{
+    font-size: 14px;
+    margin-top: 25px;
+}
+.product-content-botScreen_right-navItem_link{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 0;
+}
+
+.product-content-botScreen_right{
+    color: #fff;
+    width: 50%;
+}
+.product-content-botScreen_left-line{
+    position: absolute;
+    bottom: 165px;
+    right: 155px;
+    width: 480px;
+    height: 1px;
+    background-color: rgb(255, 255, 255,0.5);
+}
+
+.product-content-botScreen_left_bottom{
+    display: flex;
+    padding-top:  70px;
+}
+
+.product-content-botScreen_left_bottom-text{
+    padding-right: 75px;
+}
+.product-content-botScreen_left_bottom-textSupport{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.product-content-botScreen_left_bottom-textMain{
+    font-size: 27px;
+    text-transform: uppercase;
+}

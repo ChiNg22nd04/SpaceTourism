@@ -1,0 +1,66 @@
+/* Chung */
+body{
+    /* font-family: Sans-serif; */
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.home-product{
+    max-width: 1440px;
+    margin:0 auto;
+}
+.product-screen{
+    position: relative;
+}
+.product-fullscreen-item_pc{
+    /* padding-top: 65%; */
+    /* background: url('./assets/home/background-home-desktop.jpg') top center / cover no-repeat; */
+    /* background-image: url('./assets/home/background-home-desktop.jpg'); */
+}
+
+.product-topScreen_logo{
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+.product-topScreen_logo-img{
+    width: 50px;
+   
+}
+.product-topScreen_line{
+    position: absolute;
+    top: 85px;
+    /* left: 170px;
+    width: 500px; */
+    left: 160px;
+    width: 515px;
+    height: 1px;
+    background-color: rgb(255, 255, 255,0.5);
+}
+.product-topScreen_navList{
+    position: absolute;
+    top: 35px;
+    right: -0;
+    width: 760px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.333333);
+    height: 70px;
+    border-radius: 2px;
+}
+.product-topSreen_navItem{
+    color: #fff;
+    padding-left: 45px;
+    line-height: 70px;
+}
+.product-topSreen_navItem-link{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 25px 0;
+}
+.product-topSreen_navItem:nth-child(1){
+    padding-left: 0;
+}
